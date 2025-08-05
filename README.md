@@ -116,6 +116,4 @@ agendamento-tarefas/
 * As tarefas são armazenadas em memória (não persistem após reinício).
 * O formulário no frontend valida campos antes de enviar.
 
-```
-
 
