@@ -1,6 +1,5 @@
-### 📄 `README.md` (pronto para colar)
+### 📄 `README.md` 
 
-````markdown
 # 📋 Agendamento de Tarefas
 
 Aplicação para agendamento de tarefas com **notificações simuladas**, utilizando **Node.js** no backend e **React** no frontend.
