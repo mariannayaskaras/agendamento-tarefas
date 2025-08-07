@@ -1,6 +1,5 @@
-### 📄 `README.md` (pronto para colar)
+### 📄 `README.md` 
 
-````markdown
 # 📋 Agendamento de Tarefas
 
 Aplicação para agendamento de tarefas com **notificações simuladas**, utilizando **Node.js** no backend e **React** no frontend.
@@ -116,19 +115,5 @@ agendamento-tarefas/
 * O backend utiliza `ts-node-dev` para desenvolvimento.
 * As tarefas são armazenadas em memória (não persistem após reinício).
 * O formulário no frontend valida campos antes de enviar.
-
-```
-
----
-
-### ✅ Como usar no VS Code:
-
-1. Vá até a **raiz do projeto**.
-2. Clique com o botão direito no painel lateral → **"Novo Arquivo"**.
-3. Nomeie como `README.md`.
-4. Cole o conteúdo acima.
-5. Salve o arquivo.
-
-Você verá a prévia formatada em Markdown ao clicar com o botão direito no arquivo e escolher **"Abrir visualização do Markdown"** ou usando `Ctrl+Shift+V`.
 
 
