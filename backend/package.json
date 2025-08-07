@@ -6,13 +6,11 @@
     "dev": "ts-node-dev --respawn --transpile-only src/server.ts",
     "build": "tsc",
     "start": "node dist/server.js",
-    "worker": "ts-node-dev src/jobs/notificationWorker.ts",
+    "worker": "ts-node-dev --respawn --transpile-only src/jobs/notificationWorker.ts",
+    "worker:build": "tsc", 
+    "worker:start": "node dist/jobs/notificationWorker.js",
     "test": "jest"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
     "axios": "^1.11.0",
     "bullmq": "^5.56.9",

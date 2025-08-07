@@ -1,10 +1,10 @@
 import { Router } from 'express';
-import { listTasks, createTask } from '../controllers/task.controller';
-import { authenticateJWT } from '../middlewares/auth.middleware';
+import { createTask, listTasks } from '../controllers/task.controller';
+import { authenticateJWT } from '../middlewares/auth'; // seu middleware
 
 const router = Router();
 
-router.get('/', listTasks);
-router.post('/', authenticateJWT, createTask);
+router.get('/', listTasks);            // aberto
+router.post('/', authenticateJWT, createTask); // protegido
 
 export default router;
