@@ -80,7 +80,8 @@ function TaskForm({ onTaskCreated }: { onTaskCreated: () => void }) {
           type="password"
           value={token}
           onChange={e => setToken(e.target.value)}
-          placeholder="Cole aqui o JWT do /auth/login"
+          placeholder="coloque o token aqui
+        "
         />
       </div>
 
